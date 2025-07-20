@@ -1,0 +1,68 @@
+{
+  "name": "context-x-mcp",
+  "version": "0.1.0-alpha.1",
+  "description": "Multi-agent context enrichment system with auto-topic detection, auto-tool selection, and distributed specialized roles - A Model Context Provider (MCP) server for intelligent context management",
+  "main": "src/server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "dev": "node --watch src/server/index.js",
+    "test": "node test/context-enrichment-test.js",
+    "test:agents": "node test/multi-agent-test.js",
+    "test:integration": "node test/integration-test.js",
+    "test:mock": "node -e \"import('./test/mock-test.js').then(m => m.runMockTest())\"",
+    "lint": "eslint src/ test/",
+    "lint:fix": "eslint src/ test/ --fix",
+    "docs": "jsdoc -c jsdoc.conf.json"
+  },
+  "keywords": [
+    "mcp",
+    "context-enrichment",
+    "multi-agent",
+    "ai-coordination",
+    "topic-detection",
+    "auto-tools",
+    "context-management",
+    "browser-integration",
+    "model-context-provider",
+    "intelligent-automation",
+    "vector-storage",
+    "agent-orchestration",
+    "alpha"
+  ],
+  "author": "RND-PRO Team <https://rnd-pro.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakerDrive/context-x-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MakerDrive/context-x-mcp/issues"
+  },
+  "homepage": "https://github.com/MakerDrive/context-x-mcp#readme",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "natural": "^6.0.0",
+    "compromise": "^14.0.0",
+    "vectordb": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jsdoc": "^4.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "files": [
+    "src/",
+    "test/",
+    "examples/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
+  "bin": {
+    "context-x-mcp": "./src/server/index.js"
+  }
+} 
