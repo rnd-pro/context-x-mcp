@@ -33,12 +33,12 @@
   "author": "RND-PRO Team <https://rnd-pro.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MakerDrive/context-x-mcp.git"
+    "url": "git+https://github.com/rnd-pro/context-x-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/MakerDrive/context-x-mcp/issues"
+    "url": "https://github.com/rnd-pro/context-x-mcp/issues"
   },
-  "homepage": "https://github.com/MakerDrive/context-x-mcp#readme",
+  "homepage": "https://github.com/rnd-pro/context-x-mcp#readme",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",

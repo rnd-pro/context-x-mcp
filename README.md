@@ -267,7 +267,7 @@ We welcome contributions! Please see our [Contributing Guide](docs/CONTRIBUTING.
 
 ```bash
 # Clone the repository
-git clone https://github.com/MakerDrive/context-x-mcp.git
+git clone https://github.com/rnd-pro/context-x-mcp.git
 cd context-x-mcp
 
 # Install dependencies
@@ -306,9 +306,9 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📞 Support
 
-- 📧 **Issues**: [GitHub Issues](https://github.com/MakerDrive/context-x-mcp/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/MakerDrive/context-x-mcp/discussions)
-- 📖 **Documentation**: [Wiki](https://github.com/MakerDrive/context-x-mcp/wiki)
+- 📧 **Issues**: [GitHub Issues](https://github.com/rnd-pro/context-x-mcp/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/rnd-pro/context-x-mcp/discussions)
+- 📖 **Documentation**: [Wiki](https://github.com/rnd-pro/context-x-mcp/wiki)
 
 ---
 
