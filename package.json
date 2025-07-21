@@ -1,6 +1,6 @@
 {
   "name": "context-x-mcp",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.2",
   "description": "Multi-agent context enrichment system with auto-topic detection, auto-tool selection, and distributed specialized roles - A Model Context Provider (MCP) server for intelligent context management",
   "main": "src/server/index.js",
   "type": "module",
@@ -65,4 +65,4 @@
   "bin": {
     "context-x-mcp": "./src/server/index.js"
   }
-} 
+}
