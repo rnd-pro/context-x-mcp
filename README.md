@@ -291,7 +291,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 👥 Development Team
 
-**Developed by RND-PRO Team**
+**Developed by [RND-PRO Team](https://rnd-pro.com)**
 - GitHub: [rnd-pro](https://github.com/rnd-pro)
 - 💼 Professional development team specializing in innovative AI solutions
 - 🤖 Experts in multi-agent systems and context enrichment technologies
@@ -312,4 +312,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-**Made with ❤️ by RND-PRO Team for the AI context enrichment community**
+**Made with ❤️ by [RND-PRO Team](https://rnd-pro.com) for the AI context enrichment community**

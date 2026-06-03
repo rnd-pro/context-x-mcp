@@ -325,4 +325,4 @@ Thank you for contributing to Context[X]MCP! 🚀
 
 ---
 
-**Developed by RND-PRO Team** | [rnd-pro](https://github.com/rnd-pro)
+**Developed by [RND-PRO Team](https://rnd-pro.com)** | [GitHub](https://github.com/rnd-pro)

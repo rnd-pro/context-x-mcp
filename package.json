@@ -30,7 +30,7 @@
     "agent-orchestration",
     "alpha"
   ],
-  "author": "RND-PRO Team <https://github.com/rnd-pro>",
+  "author": "RND-PRO Team <https://rnd-pro.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rnd-pro/context-x-mcp.git"
