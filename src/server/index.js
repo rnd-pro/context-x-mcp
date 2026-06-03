@@ -178,7 +178,7 @@ class ContextXMCPServer {
       await this.server.connect(transport);
 
       this.logger.info('Context[X]MCP Server started successfully');
-      this.logger.info(`Version: 0.1.0-alpha.1`);
+      this.logger.info(`Version: 0.1.0-alpha.2`);
       this.logger.info(`Agents: ${this.coordinator.getActiveAgents().length}`);
     } catch (error) {
       this.logger.error('Failed to start server:', error);
@@ -214,6 +214,18 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     process.exit(0);
   });
 
+  process.on('SIGHUP', async () => {
+    await server.shutdown();
+    process.exit(0);
+  });
+
+  // Exit when parent IDE closes the stdin pipe (session ended)
+  process.stdin.on('close', async () => {
+    console.error('[context-x] stdin pipe closed, exiting');
+    await server.shutdown();
+    process.exit(0);
+  });
+
   // Start the server
   server.start().catch((error) => {
     console.error('Failed to start Context[X]MCP Server:', error);
@@ -221,4 +233,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   });
 }
 
-export { ContextXMCPServer }; 
+export { ContextXMCPServer };
