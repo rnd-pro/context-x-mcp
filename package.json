@@ -7,10 +7,10 @@
   "scripts": {
     "start": "node src/server/index.js",
     "dev": "node --watch src/server/index.js",
-    "test": "node test/context-enrichment-test.js",
-    "test:agents": "node test/multi-agent-test.js",
-    "test:integration": "node test/integration-test.js",
-    "test:mock": "node -e \"import('./test/mock-test.js').then(m => m.runMockTest())\"",
+    "test": "node test/mock-test.js",
+    "test:agents": "node test/mock-test.js",
+    "test:integration": "node test/mock-test.js",
+    "test:mock": "node test/mock-test.js",
     "lint": "eslint src/ test/",
     "lint:fix": "eslint src/ test/ --fix",
     "docs": "jsdoc -c jsdoc.conf.json"
@@ -30,7 +30,7 @@
     "agent-orchestration",
     "alpha"
   ],
-  "author": "RND-PRO Team <https://rnd-pro.com>",
+  "author": "RND-PRO Team <https://github.com/rnd-pro>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rnd-pro/context-x-mcp.git"
@@ -59,8 +59,11 @@
     "test/",
     "examples/",
     "docs/",
+    "assets/",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "CHANGELOG.md",
+    "SECURITY.md"
   ],
   "bin": {
     "context-x-mcp": "./src/server/index.js"

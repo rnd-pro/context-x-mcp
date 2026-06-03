@@ -56,7 +56,7 @@ Context[X]MCP is a Model Context Provider (MCP) server that enables intelligent 
 
 ```bash
 # Clone the repository
-git clone https://github.com/MakerDrive/context-x-mcp.git
+git clone https://github.com/rnd-pro/context-x-mcp.git
 cd context-x-mcp
 
 # Install dependencies
@@ -292,7 +292,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## 👥 Development Team
 
 **Developed by RND-PRO Team**
-- 🌐 Website: [rnd-pro.com](https://rnd-pro.com)
+- GitHub: [rnd-pro](https://github.com/rnd-pro)
 - 💼 Professional development team specializing in innovative AI solutions
 - 🤖 Experts in multi-agent systems and context enrichment technologies
 - 🚀 Leaders in MCP protocol implementations and intelligent automation
@@ -300,7 +300,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## 🙏 Acknowledgments
 
 - Built on [Model Context Protocol (MCP)](https://modelcontextprotocol.io/)
-- Integrates with [Browser[X]MCP](https://github.com/MakerDrive/browser-x-mcp)
+- Integrates with [Browser[X]MCP](https://github.com/rnd-pro/browser-x-mcp)
 - Inspired by multi-agent AI architectures and distributed systems
 - Natural language processing powered by advanced NLP libraries
 
@@ -308,7 +308,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 - 📧 **Issues**: [GitHub Issues](https://github.com/rnd-pro/context-x-mcp/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/rnd-pro/context-x-mcp/discussions)
-- 📖 **Documentation**: [Wiki](https://github.com/rnd-pro/context-x-mcp/wiki)
+- 📖 **Documentation**: [Repository docs](docs/)
 
 ---
 

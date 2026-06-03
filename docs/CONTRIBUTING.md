@@ -311,7 +311,7 @@ Include:
 
 ### Related Projects
 
-- [Browser[X]MCP](https://github.com/MakerDrive/browser-x-mcp)
+- [Browser[X]MCP](https://github.com/rnd-pro/browser-x-mcp)
 - [MCP SDK](https://github.com/modelcontextprotocol/sdk)
 
 ## 🙏 Recognition
@@ -325,4 +325,4 @@ Thank you for contributing to Context[X]MCP! 🚀
 
 ---
 
-**Developed by RND-PRO Team** | [rnd-pro.com](https://rnd-pro.com) 
+**Developed by RND-PRO Team** | [rnd-pro](https://github.com/rnd-pro)
